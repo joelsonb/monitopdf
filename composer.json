@@ -1,0 +1,22 @@
+{
+    "name": "joelsonb/monitopdf",
+    "minimum-stability": "dev",
+    "description": "Monitopdf - just a personal project",
+    "homepage": "http://gitlab.com/joelsonb/monitopdf",
+    "authors": [
+        {
+            "name": "Joelson B",
+            "email": "joelsonb@msn.com"
+        }
+    ],
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=7.0.0",
+        "joelson/monitolib": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "MonitoPdf\\": "src"
+        }
+    }
+}
